@@ -1,4 +1,5 @@
 //html code for registration page
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -34,7 +35,6 @@
 
 
 //register.php
-
 <?php
 // database connection
 $servername = "your_server_name";
@@ -74,7 +74,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 ?>
 
 //Html code for login page
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -100,7 +99,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </html>
 
 //login.php
-
 ?php
 
 $servername = "your_server_name";
